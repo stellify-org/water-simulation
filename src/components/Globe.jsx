@@ -47,7 +47,7 @@ const GlobeComponents = ({ countries, oceans, hover, setHover, water }) => {
         }
       />
       {selectedCountry && (
-        <div className="bg-slate-900 w-[300px] p-10 absolute top-[120px] left-[40px] rounded-[10px] shadow-md ">
+        <div className="bg-slate-900 w-[400px] p-8 absolute top-[120px] left-[40px] rounded-[10px] shadow-md ">
           <div className="">
             <h2 className="text-white">
               Country: {selectedCountry.properties?.NAME}
@@ -61,9 +61,8 @@ const GlobeComponents = ({ countries, oceans, hover, setHover, water }) => {
             {wtr && (
               <div>
                 <p className="text-white">
-                  Fresh Water Quantity: {wtr.total} km<sup>3</sup>
+                  Fresh Water Quantity: {wtr.total} km<sup>3 </sup> ({wtr.year})
                 </p>
-                <p className="text-white">Year: {wtr.year}</p>
               </div>
             )}
           </div>

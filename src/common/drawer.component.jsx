@@ -63,7 +63,10 @@ export const DrawerComponent = () => {
     <>
       {["right"].map((anchor) => (
         <React.Fragment key={anchor}>
-          <IconButton onClick={toggleDrawer(anchor, true)}>
+          <IconButton
+            onClick={toggleDrawer(anchor, true)}
+            sx={{ cursor: "pointer" }}
+          >
             <MenuIcon sx={{ fontSize: 35, color: "white" }} />
           </IconButton>
           <SwipeableDrawer
