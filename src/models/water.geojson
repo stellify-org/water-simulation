@@ -1,0 +1,852 @@
+[
+    {
+        "name": "Brazil",
+        "total": 8600,
+        "year": 2019
+    },
+    {
+        "name": "Russia",
+        "total": 4500,
+        "year": 2019
+    },
+    {
+        "name": "United States",
+        "total": 3100,
+        "year": 2019
+    },
+    {
+        "name": "Canada",
+        "total": 2900,
+        "year": 2019
+    },
+    {
+        "name": "China",
+        "total": 2800,
+        "year": 2019
+    },
+    {
+        "name": "Colombia",
+        "total": 2400,
+        "year": 2019
+    },
+    {
+        "name": "Indonesia",
+        "total": 2000,
+        "year": 2019
+    },
+    {
+        "name": "India",
+        "total": 1900,
+        "year": 2019
+    },
+    {
+        "name": "Peru",
+        "total": 1900,
+        "year": 2019
+    },
+    {
+        "name": "European Union",
+        "total": 1700,
+        "year": 2019
+    },
+    {
+        "name": "Congo, Democratic Republic of the",
+        "total": 1300,
+        "year": 2019
+    },
+    {
+        "name": "Uganda",
+        "total": 1233,
+        "year": 2011
+    },
+    {
+        "name": "Bangladesh",
+        "total": 1227,
+        "year": 2011
+    },
+    {
+        "name": "Myanmar",
+        "total": 1168,
+        "year": 2011
+    },
+    {
+        "name": "Chile",
+        "total": 922,
+        "year": 2011
+    },
+    {
+        "name": "Nigeria",
+        "total": 950,
+        "year": 2011
+    },
+    {
+        "name": "Vietnam",
+        "total": 884.1,
+        "year": 2011
+    },
+    {
+        "name": "Congo, Republic of the",
+        "total": 832,
+        "year": 2011
+    },
+    {
+        "name": "Argentina",
+        "total": 814,
+        "year": 2011
+    },
+    {
+        "name": "Papua New Guinea",
+        "total": 801,
+        "year": 2011
+    },
+    {
+        "name": "Bolivia",
+        "total": 580,
+        "year": 2011
+    },
+    {
+        "name": "Australia",
+        "total": 492,
+        "year": 2019
+    },
+    {
+        "name": "Philippines",
+        "total": 479,
+        "year": 2011
+    },
+    {
+        "name": "Cambodia",
+        "total": 476.1,
+        "year": 2011
+    },
+    {
+        "name": "Thailand",
+        "total": 457.2,
+        "year": 2011
+    },
+    {
+        "name": "Mexico",
+        "total": 438.6,
+        "year": 2011
+    },
+    {
+        "name": "Japan",
+        "total": 430,
+        "year": 2011
+    },
+    {
+        "name": "Norway",
+        "total": 424.4,
+        "year": 2011
+    },
+    {
+        "name": "Ecuador",
+        "total": 382,
+        "year": 2011
+    },
+    {
+        "name": "Paraguay",
+        "total": 337,
+        "year": 2011
+    },
+    {
+        "name": "Madagascar",
+        "total": 336,
+        "year": 2011
+    },
+    {
+        "name": "New Zealand",
+        "total": 333.5,
+        "year": 2011
+    },
+    {
+        "name": "Laos",
+        "total": 327,
+        "year": 2011
+    },
+    {
+        "name": "Cameroon",
+        "total": 285.5,
+        "year": 2011
+    },
+    {
+        "name": "Pakistan",
+        "total": 246.8,
+        "year": 2011
+    },
+    {
+        "name": "Guyana",
+        "total": 241,
+        "year": 2011
+    },
+    {
+        "name": "Guinea",
+        "total": 232,
+        "year": 2011
+    },
+    {
+        "name": "Mozambique",
+        "total": 226,
+        "year": 2011
+    },
+    {
+        "name": "Romania",
+        "total": 217.1,
+        "year": 2011
+    },
+    {
+        "name": "Liberia",
+        "total": 211.9,
+        "year": 2011
+    },
+    {
+        "name": "Turkey",
+        "total": 211.6,
+        "year": 2011
+    },
+    {
+        "name": "France",
+        "total": 211,
+        "year": 2011
+    },
+    {
+        "name": "Nepal",
+        "total": 210.5,
+        "year": 2011
+    },
+    {
+        "name": "Nicaragua",
+        "total": 196.6,
+        "year": 2011
+    },
+    {
+        "name": "Italy",
+        "total": 191.3,
+        "year": 2011
+    },
+    {
+        "name": "Sweden",
+        "total": 174,
+        "year": 2011
+    },
+    {
+        "name": "Iceland",
+        "total": 170,
+        "year": 2011
+    },
+    {
+        "name": "Gabon",
+        "total": 164,
+        "year": 2011
+    },
+    {
+        "name": "Serbia",
+        "total": 162.2,
+        "year": 2011
+    },
+    {
+        "name": "Sierra Leone",
+        "total": 160,
+        "year": 2011
+    },
+    {
+        "name": "Germany",
+        "total": 154,
+        "year": 2011
+    },
+    {
+        "name": "Angola",
+        "total": 148,
+        "year": 2011
+    },
+    {
+        "name": "Panama",
+        "total": 148,
+        "year": 2011
+    },
+    {
+        "name": "United Kingdom",
+        "total": 147,
+        "year": 2011
+    },
+    {
+        "name": "Central African Republic",
+        "total": 144.4,
+        "year": 2011
+    },
+    {
+        "name": "Ukraine",
+        "total": 139.6,
+        "year": 2011
+    },
+    {
+        "name": "Ethiopia",
+        "total": 139,
+        "year": 2011
+    },
+    {
+        "name": "Iran",
+        "total": 137,
+        "year": 2011
+    },
+    {
+        "name": "Uruguay",
+        "total": 122,
+        "year": 2011
+    },
+    {
+        "name": "Suriname",
+        "total": 122,
+        "year": 2011
+    },
+    {
+        "name": "Costa Rica",
+        "total": 112.4,
+        "year": 2011
+    },
+    {
+        "name": "Spain",
+        "total": 111.5,
+        "year": 2011
+    },
+    {
+        "name": "Guatemala",
+        "total": 111.3,
+        "year": 2011
+    },
+    {
+        "name": "Finland",
+        "total": 110,
+        "year": 2011
+    },
+    {
+        "name": "Zambia",
+        "total": 107.5,
+        "year": 2011
+    },
+    {
+        "name": "Turkmenistan",
+        "total": 105.5,
+        "year": 2011
+    },
+    {
+        "name": "Croatia",
+        "total": 105.2,
+        "year": 2011
+    },
+    {
+        "name": "Hungary",
+        "total": 104,
+        "year": 2011
+    },
+    {
+        "name": "Mali",
+        "total": 100,
+        "year": 2011
+    },
+    {
+        "name": "Tanzania",
+        "total": 96.27,
+        "year": 2011
+    },
+    {
+        "name": "Honduras",
+        "total": 95.93,
+        "year": 2011
+    },
+    {
+        "name": "Netherlands",
+        "total": 91,
+        "year": 2011
+    },
+    {
+        "name": "Iraq",
+        "total": 89.86,
+        "year": 2011
+    },
+    {
+        "name": "Cote d'Ivoire",
+        "total": 81.14,
+        "year": 2011
+    },
+    {
+        "name": "Austria",
+        "total": 78,
+        "year": 2011
+    },
+    {
+        "name": "Azerbaijan",
+        "total": 77.7,
+        "year": 2011
+    },
+    {
+        "name": "Korea, North",
+        "total": 77.15,
+        "year": 2011
+    },
+    {
+        "name": "Greece",
+        "total": 74.25,
+        "year": 2011
+    },
+    {
+        "name": "Portugal",
+        "total": 69.7,
+        "year": 2011
+    },
+    {
+        "name": "Korea, South",
+        "total": 68.7,
+        "year": 2011
+    },
+    {
+        "name": "Kazakhstan",
+        "total": 66,
+        "year": 2011
+    },
+    {
+        "name": "Sudan",
+        "total": 64.5,
+        "year": 2011
+    },
+    {
+        "name": "Poland",
+        "total": 63.33,
+        "year": 2011
+    },
+    {
+        "name": "Georgia",
+        "total": 61.6,
+        "year": 2011
+    },
+    {
+        "name": "Belarus",
+        "total": 58,
+        "year": 2011
+    },
+    {
+        "name": "Egypt",
+        "total": 57.3,
+        "year": 2011
+    },
+    {
+        "name": "Switzerland",
+        "total": 53.5,
+        "year": 2011
+    },
+    {
+        "name": "Ghana",
+        "total": 53.2,
+        "year": 2011
+    },
+    {
+        "name": "Sri Lanka",
+        "total": 52.8,
+        "year": 2011
+    },
+    {
+        "name": "Ireland",
+        "total": 52,
+        "year": 2011
+    },
+    {
+        "name": "South Africa",
+        "total": 51.4,
+        "year": 2011
+    },
+    {
+        "name": "Slovakia",
+        "total": 50.1,
+        "year": 2011
+    },
+    {
+        "name": "Uzbekistan",
+        "total": 48.87,
+        "year": 2011
+    },
+    {
+        "name": "Solomon Islands",
+        "total": 44.7,
+        "year": 2011
+    },
+    {
+        "name": "Albania",
+        "total": 43,
+        "year": 2011
+    },
+    {
+        "name": "Chad",
+        "total": 41.7,
+        "year": 2011
+    },
+    {
+        "name": "Senegal",
+        "total": 38.8,
+        "year": 2011
+    },
+    {
+        "name": "Cuba",
+        "total": 38.12,
+        "year": 2011
+    },
+    {
+        "name": "Bosnia and Herzegovina",
+        "total": 37.5,
+        "year": 2011
+    },
+    {
+        "name": "Latvia",
+        "total": 35.45,
+        "year": 2011
+    },
+    {
+        "name": "Mongolia",
+        "total": 34.8,
+        "year": 2011
+    },
+    {
+        "name": "Bhutan",
+        "total": 34.68,
+        "year": 2011
+    },
+    {
+        "name": "Niger",
+        "total": 33.65,
+        "year": 2011
+    },
+    {
+        "name": "Slovenia",
+        "total": 31.87,
+        "year": 2011
+    },
+    {
+        "name": "Guinea Bissau",
+        "total": 31,
+        "year": 2011
+    },
+    {
+        "name": "Morocco",
+        "total": 30.7,
+        "year": 2011
+    },
+    {
+        "name": "Kenya",
+        "total": 29,
+        "year": 2011
+    },
+    {
+        "name": "Fiji",
+        "total": 28.55,
+        "year": 2011
+    },
+    {
+        "name": "Benin",
+        "total": 26.39,
+        "year": 2011
+    },
+    {
+        "name": "Equatorial Guinea",
+        "total": 26,
+        "year": 2011
+    },
+    {
+        "name": "El Salvador",
+        "total": 25.23,
+        "year": 2011
+    },
+    {
+        "name": "Lithuania",
+        "total": 24.9,
+        "year": 2011
+    },
+    {
+        "name": "Afghanistan",
+        "total": 24.77,
+        "year": 2011
+    },
+    {
+        "name": "Kyrgyzstan",
+        "total": 23.62,
+        "year": 2011
+    },
+    {
+        "name": "Tajikistan",
+        "total": 21.91,
+        "year": 2011
+    },
+    {
+        "name": "Bulgaria",
+        "total": 21.3,
+        "year": 2011
+    },
+    {
+        "name": "Dominican Republic",
+        "total": 21,
+        "year": 2011
+    },
+    {
+        "name": "Zimbabwe",
+        "total": 20,
+        "year": 2011
+    },
+    {
+        "name": "Belize",
+        "total": 18.55,
+        "year": 2011
+    },
+    {
+        "name": "Belgium",
+        "total": 18.3,
+        "year": 2011
+    },
+    {
+        "name": "Namibia",
+        "total": 17.72,
+        "year": 2011
+    },
+    {
+        "name": "Somalia",
+        "total": 17.28,
+        "year": 2011
+    },
+    {
+        "name": "Malawi",
+        "total": 16.8,
+        "year": 2011
+    },
+    {
+        "name": "Syria",
+        "total": 14.7,
+        "year": 2011
+    },
+    {
+        "name": "Togo",
+        "total": 14.7,
+        "year": 2011
+    },
+    {
+        "name": "Haiti",
+        "total": 14.03,
+        "year": 2011
+    },
+    {
+        "name": "Czech Republic",
+        "total": 13.15,
+        "year": 2011
+    },
+    {
+        "name": "Estonia",
+        "total": 12.81,
+        "year": 2011
+    },
+    {
+        "name": "Burundi",
+        "total": 12.54,
+        "year": 2011
+    },
+    {
+        "name": "Burkina Faso",
+        "total": 12.5,
+        "year": 2011
+    },
+    {
+        "name": "Botswana",
+        "total": 12.24,
+        "year": 2011
+    },
+    {
+        "name": "Algeria",
+        "total": 11.67,
+        "year": 2011
+    },
+    {
+        "name": "Moldova",
+        "total": 11.65,
+        "year": 2011
+    },
+    {
+        "name": "Mauritania",
+        "total": 11.4,
+        "year": 2011
+    },
+    {
+        "name": "Rwanda",
+        "total": 9.5,
+        "year": 2011
+    },
+    {
+        "name": "Jamaica",
+        "total": 9.4,
+        "year": 2011
+    },
+    {
+        "name": "Brunei",
+        "total": 8.5,
+        "year": 2011
+    },
+    {
+        "name": "Gambia",
+        "total": 8,
+        "year": 2011
+    },
+    {
+        "name": "Armenia",
+        "total": 7.77,
+        "year": 2011
+    },
+    {
+        "name": "North Macedonia",
+        "total": 6.4,
+        "year": 2011
+    },
+    {
+        "name": "Eritrea",
+        "total": 6.3,
+        "year": 2011
+    },
+    {
+        "name": "Denmark",
+        "total": 6,
+        "year": 2011
+    },
+    {
+        "name": "Tunisia",
+        "total": 4.6,
+        "year": 2011
+    },
+    {
+        "name": "Lebanon",
+        "total": 4.51,
+        "year": 2011
+    },
+    {
+        "name": "Swaziland",
+        "total": 4.5,
+        "year": 2011
+    },
+    {
+        "name": "Trinidad and Tobago",
+        "total": 3.84,
+        "year": 2011
+    },
+    {
+        "name": "Luxembourg",
+        "total": 3.1,
+        "year": 2011
+    },
+    {
+        "name": "Lesotho",
+        "total": 3.02,
+        "year": 2011
+    },
+    {
+        "name": "Mauritius",
+        "total": 2.75,
+        "year": 2011
+    },
+    {
+        "name": "Saudi Arabia",
+        "total": 2.4,
+        "year": 2011
+    },
+    {
+        "name": "Yemen",
+        "total": 2.1,
+        "year": 2011
+    },
+    {
+        "name": "Israel",
+        "total": 1.78,
+        "year": 2011
+    },
+    {
+        "name": "Oman",
+        "total": 1.4,
+        "year": 2011
+    },
+    {
+        "name": "Comoros",
+        "total": 1.2,
+        "year": 2011
+    },
+    {
+        "name": "Jordan",
+        "total": 0.94,
+        "year": 2011
+    },
+    {
+        "name": "Cyprus",
+        "total": 0.78,
+        "year": 2011
+    },
+    {
+        "name": "Libya",
+        "total": 0.7,
+        "year": 2011
+    },
+    {
+        "name": "Singapore",
+        "total": 0.6,
+        "year": 2011
+    },
+    {
+        "name": "Cape Verde",
+        "total": 0.3,
+        "year": 2011
+    },
+    {
+        "name": "Djibouti",
+        "total": 0.3,
+        "year": 2011
+    },
+    {
+        "name": "United Arab Emirates",
+        "total": 0.15,
+        "year": 2011
+    },
+    {
+        "name": "Bahrain",
+        "total": 0.12,
+        "year": 2011
+    },
+    {
+        "name": "Barbados",
+        "total": 0.08,
+        "year": 2011
+    },
+    {
+        "name": "Qatar",
+        "total": 0.06,
+        "year": 2011
+    },
+    {
+        "name": "Antigua and Barbuda",
+        "total": 0.05,
+        "year": 2011
+    },
+    {
+        "name": "Malta",
+        "total": 0.05,
+        "year": 2011
+    },
+    {
+        "name": "Maldives",
+        "total": 0.03,
+        "year": 2011
+    },
+    {
+        "name": "Bahamas",
+        "total": 0.02,
+        "year": 2011
+    },
+    {
+        "name": "Kuwait",
+        "total": 0.02,
+        "year": 2011
+    },
+    {
+        "name": "Saint Kitts and Nevis",
+        "total": 0.02,
+        "year": 2011
+    }
+]
