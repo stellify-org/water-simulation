@@ -16,6 +16,8 @@ body {
 }
 
 .css-1160xiw-MuiPaper-root-MuiDrawer-paper {
-  background: #000011 !important;
+  background-color: #000011 !important;
   top: 80px !important;
 }
+
+.css-1160xiw-MuiPaper-root-MuiDrawer-paper {}
