@@ -32,6 +32,7 @@ export const DrawerComponent = () => {
         justifyContent: "space-between",
         height: "70%",
         p: 2,
+        background: "#000011",
       }}
       role="presentation"
       onClick={toggleDrawer(anchor, false)}
@@ -65,7 +66,11 @@ export const DrawerComponent = () => {
   );
 
   return (
-    <>
+    <Box
+      sx={{
+        background: "#000011",
+      }}
+    >
       {["right"].map((anchor) => (
         <React.Fragment key={anchor}>
           {!state.right && (
@@ -83,6 +88,6 @@ export const DrawerComponent = () => {
           </SwipeableDrawer>
         </React.Fragment>
       ))}
-    </>
+    </Box>
   );
 };
