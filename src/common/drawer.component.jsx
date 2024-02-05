@@ -66,11 +66,7 @@ export const DrawerComponent = () => {
   );
 
   return (
-    <Box
-      sx={{
-        background: "#000011",
-      }}
-    >
+    <>
       {["right"].map((anchor) => (
         <React.Fragment key={anchor}>
           {!state.right && (
@@ -88,6 +84,6 @@ export const DrawerComponent = () => {
           </SwipeableDrawer>
         </React.Fragment>
       ))}
-    </Box>
+    </>
   );
 };
