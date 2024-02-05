@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import { Box, IconButton, Typography } from "@mui/material";
 import SwipeableDrawer from "@mui/material/SwipeableDrawer";
 import MenuIcon from "@mui/icons-material/Menu";
-
+import CloseIcon from "@mui/icons-material/Close";
 export const DrawerComponent = () => {
   const [state, setState] = useState({
     left: false,
@@ -38,6 +38,11 @@ export const DrawerComponent = () => {
       onKeyDown={toggleDrawer(anchor, false)}
     >
       <Box>
+        <IconButton onClick={toggleDrawer(anchor, false)}>
+          <CloseIcon sx={{ fontSize: 35, color: "white", mb: 2 }} />
+        </IconButton>
+      </Box>
+      <Box>
         <Typography sx={{ color: "white" }}>Water Simulator</Typography>
         <Typography sx={{ color: "#767676", fontSize: "14px" }}>
           is an interactive simulator that allows you to explore the water
@@ -63,9 +68,11 @@ export const DrawerComponent = () => {
     <>
       {["right"].map((anchor) => (
         <React.Fragment key={anchor}>
-          <IconButton onClick={toggleDrawer(anchor, true)}>
-            <MenuIcon sx={{ fontSize: 35, color: "white" }} />
-          </IconButton>
+          {!state.right && (
+            <IconButton onClick={toggleDrawer(anchor, true)}>
+              <MenuIcon sx={{ fontSize: 35, color: "white" }} />
+            </IconButton>
+          )}
           <SwipeableDrawer
             anchor={anchor}
             open={state[anchor]}

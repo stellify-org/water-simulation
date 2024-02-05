@@ -6,16 +6,14 @@
   padding: 0;
   margin: 0;
   box-sizing: border-box;
-  
+
 }
 
 body {
-  overflow-y: hidden; 
+  overflow-y: hidden;
   overflow-x: hidden;
   background: #000011;
 }
-
 .css-1160xiw-MuiPaper-root-MuiDrawer-paper {
-  background: #000011 !important;
-  top: 80px !important;
+  background: rgba(255, 255, 255, 0.1) !important;
 }

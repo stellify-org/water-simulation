@@ -18,7 +18,7 @@ const GlobeComponents = ({ countries, oceans, hover, setHover, water }) => {
       if (polygon) {
         setSelectedCountry(polygon);
         const selectedWaterData = water.find(
-          (item) => item.name === polygon.properties.NAME
+          (item) => item.name === polygon.properties.NAME,
         );
         if (selectedWaterData) {
           setWtr(selectedWaterData);
@@ -27,7 +27,7 @@ const GlobeComponents = ({ countries, oceans, hover, setHover, water }) => {
         setSelectedCountry(null);
       }
     },
-    [water]
+    [water],
   );
 
   return (
@@ -47,17 +47,23 @@ const GlobeComponents = ({ countries, oceans, hover, setHover, water }) => {
         }
       />
       {selectedCountry && (
-        <div className="bg-slate-900 w-[300px] p-10 absolute top-[120px] left-[40px] rounded-[10px] shadow-md ">
+        <div className="bg-slate-900 backdrop-blur-sm bg-white/10 w-[350px] p-10 absolute top-[120px] left-[40px] rounded-[10px] shadow-md ">
           <div className="">
-            <h2 className="text-white">
-              Country: {selectedCountry.properties?.NAME}
-            </h2>
-            <p className="text-white">
-              Population: {selectedCountry.properties?.POP_EST}
-            </p>
-            <p className="text-white">
-              GDP: {selectedCountry.properties?.GDP_MD_EST}
-            </p>
+            {selectedCountry.properties?.NAME && (
+              <h2 className="text-white">
+                Country: {selectedCountry.properties?.NAME}
+              </h2>
+            )}
+            {selectedCountry.properties?.POP_EST && (
+              <p className="text-white">
+                Population: {selectedCountry.properties?.POP_EST}
+              </p>
+            )}
+            {selectedCountry.properties?.GDP_MD_EST && (
+              <p className="text-white">
+                GDP: {selectedCountry.properties?.GDP_MD_EST}
+              </p>
+            )}
             {wtr && (
               <div>
                 <p className="text-white">

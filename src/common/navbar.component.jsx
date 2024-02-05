@@ -2,11 +2,9 @@ import { DrawerComponent } from "./drawer.component";
 
 export const NavbarComponent = () => {
   return (
-    <nav className="w-full fixed px-10 py-6 flex justify-between items-center bg-[#000011] backdrop-blur-xl shadow-md">
+    <nav className="backdrop-blur-sm bg-white/10 w-full fixed px-10 py-4 flex justify-between items-center shadow-md">
       <h1 className="font-bold text-[24px] text-white">Water Simulation</h1>
-      <div className="">
-        <DrawerComponent />
-      </div>
+      <DrawerComponent />
     </nav>
   );
 };
