@@ -1,5 +1,4 @@
 import React, { useState, useEffect } from "react";
-import axios from "axios";
 import GlobeComponents from "./components/Globe";
 import { NavbarComponent } from "./common/navbar.component";
 import countries from "../src/models/countries.geojson";
@@ -10,32 +9,29 @@ const App = () => {
   const [features, setFeatures] = useState([]);
   const [oceans, setOceans] = useState([]);
   const [water, setWater] = useState([]);
-  const [loading, setLoading] = useState(true); // Устанавливаем loading в true в начале
+  const [loading, setLoading] = useState(true);
   const [hover, setHover] = useState();
   const [error, setError] = useState(null);
 
   useEffect(() => {
     const fetchData = async () => {
       try {
-        const [oceansResponse, waterResponse, countriesResponse] =
-          await Promise.all([
-            axios.get(Oceans),
-            axios.get(waterData),
-            axios.get(countries),
-          ]);
+        const [oceansRes, countriesRes, waterRes] = await Promise.all([
+          fetch(Oceans).then((response) => response.json()),
+          fetch(countries).then((response) => response.json()),
+          fetch(waterData).then((response) => response.json()),
+        ]);
 
-        // Устанавливаем полученные данные в состояния
-        setOceans(oceansResponse.data.features);
-        setWater(waterResponse.data);
-        setFeatures(countriesResponse.data.features);
+        setOceans(oceansRes.features);
+        setFeatures(countriesRes.features);
+        setWater(waterRes);
         setLoading(false);
       } catch (error) {
         setError(error);
         setLoading(false);
       }
     };
-
-    fetchData();
+    fetchData().then();
   }, []);
 
   return (

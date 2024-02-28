@@ -17,7 +17,7 @@ const GlobeComponents = ({ countries, oceans, hover, setHover, water }) => {
     (polygon) => {
       if (polygon) {
         setSelectedCountry(polygon);
-        const selectedWaterData = water.find(
+        const selectedWaterData = water?.find(
           (item) => item.name === polygon.properties.NAME,
         );
         if (selectedWaterData) {
@@ -34,20 +34,20 @@ const GlobeComponents = ({ countries, oceans, hover, setHover, water }) => {
     <>
       <Globe
         globeImageUrl="//unpkg.com/three-globe/example/img/earth-night.jpg"
-        polygonsData={allData}
+        backgroundImageUrl="//unpkg.com/three-globe/example/img/night-sky.png"
+        polygonsData={countries}
         onPolygonClick={handlePolygonClick}
         onPolygonHover={setHover}
         polygonAltitude={(d) => (d === hover ? 0.12 : 0.06)}
         polygonCapColor={(d) =>
-          d.isOcean
-            ? "steelblue"
-            : d === hover
-            ? "steelblue"
-            : colorScale(getVal(d))
+          d === hover ? "steelblue" : colorScale(getVal(d))
         }
+        polygonSideColor={() => "rgba(0, 100, 0, 0.15)"}
+        // polygonStrokeColor={() => "#111"}
+        polygonsTransitionDuration={300}
       />
       {selectedCountry && (
-        <div className="bg-slate-900 backdrop-blur-sm bg-white/10 w-[350px] p-10 absolute top-[120px] left-[40px] rounded-[10px] shadow-md ">
+        <div className="bg-slate-900 backdrop-blur-[5px] bg-white/10 w-[350px] font-bold p-10 absolute top-[120px] left-[40px] rounded-[10px] shadow-md">
           <div className="">
             {selectedCountry.properties?.NAME && (
               <h2 className="text-white">
@@ -67,9 +67,9 @@ const GlobeComponents = ({ countries, oceans, hover, setHover, water }) => {
             {wtr && (
               <div>
                 <p className="text-white">
-                  Fresh Water Quantity: {wtr.total} km<sup>3</sup>
+                  Fresh Water Quantity: {wtr?.total} km<sup>3</sup>
                 </p>
-                <p className="text-white">Year: {wtr.year}</p>
+                <p className="text-white">Year: {wtr?.year}</p>
               </div>
             )}
           </div>
